@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller2">
+    <children>
+        <VBox alignment="CENTER" layoutX="71.0" prefHeight="400.0" prefWidth="636.0" spacing="10">
+            <TableView fx:id="reservationTable" prefHeight="311.0" prefWidth="636.0">
+                <columns>
+                    <TableColumn fx:id="destinacioniColumn" prefWidth="142.0" text="Destinacioni" />
+                    <TableColumn fx:id="dataColumn" prefWidth="93.0" text="Data" />
+                    <TableColumn fx:id="orariColumn" minWidth="0.0" prefWidth="134.0" text="Orari" />
+                    <TableColumn fx:id="numriVendeveColumn" prefWidth="137.0" text="Numri i vendeve" />
+                    <TableColumn fx:id="cmimiColumn" prefWidth="128.0" text="Cmimi" />
+                </columns>
+            </TableView>
+            <Button fx:id="continueButton" onAction="#continueClicked" text="Vazhdo" />
+        </VBox>
+    </children>
+</AnchorPane>
