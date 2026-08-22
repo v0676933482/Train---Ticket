@@ -1,4 +1,3 @@
-# Train-Ticket
 # Train Ticket Booking System – Java Project
 
 This is a simple **Java Train Ticket Booking System** designed for beginners. The program allows the user to enter their personal information first and then choose a train route from a list of available destinations.
